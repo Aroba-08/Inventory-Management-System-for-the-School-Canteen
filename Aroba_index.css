@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+/* mao ni ang background sa register*/
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+
+
+}
+
+
+
+/* mao ni ang background sa tanan*/
+.Aroba{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   background-image: url('background1.jpg');
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	background-size: 100% 100%;
+
+}
+
+
+
+/* mao ni ang background sa sulod sa form */
+.Aroba form{
+   padding:20px;
+
+   border-radius: 5px;
+   box-shadow: 1 5px 10px rgba(0,0,0,.1);
+   background: white;
+   text-align: center;
+   width: 500px;
+   opacity: 0.9;
+}
+
+
+
+/* mao ni ang background sa Sales and Inventory */
+.Aroba form h3{
+   font-size: 25px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   color:#333;
+   background-color: white;
+   border-radius: 5px;
+
+}
+hr {
+  border-top: 2px solid red;
+}
+
+.Aroba form input
+{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border: none;
+   color: black;
+}
+
+.Aroba form select{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+   border: none;
+   outline: none;
+}
+.Aroba form select option{
+   background: #fff;
+}
+
+/* mao ni ang background hover sa input*/
+.Aroba form input:hover{
+   background: #1B9CFC;
+   color: black;
+}
+
+.input-box input{
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+}
+
+::placeholder{
+  color: #333;
+}
+
+
+
+/* mao ni ang background sa login */
+.Aroba form .form-btn{
+   background: #f1c40f;
+   color: black;
+   text-transform: capitalize;
+
+   cursor: pointer;
+
+}
+
+/* mao ni ang background hover sa login */
+.Aroba form .form-btn:hover{
+   background: #1B9CFC;
+   color: black;
+}
+
+.Aroba form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color:#333;
+   background-color: white;
+   border-radius: 5px;
+}
+
+.Aroba form p a{
+   color:blue;
+   background-color: white;
+   border-radius: 5px;
+}
+
+blink {
+  animation: 1s linear infinite condemned_blink_effect;
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+.input-box i{
+position: absolute;
+
+}
+
+.jonelaroba{
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 17px;
+    color: red;
+
+}
